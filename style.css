@@ -1,0 +1,23 @@
+.header
+{
+    width: 60 px;  
+    height: 60 px;  
+    background-color: #25B33f;
+    margin-bottom: 45 px; 
+    background-image: url(images/jelly.png)
+}
+
+h1
+{ 
+    color: black;
+    font: 34 px arial;
+    margin-left: 34 px; 
+}
+
+h3
+{
+    width: 34 px; 
+    color: black; 
+    font-style: arial;
+    margin: 34 px; 
+} 
