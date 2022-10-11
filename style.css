@@ -44,6 +44,15 @@ body
 .menu
 {
     display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.phone
+{
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: right;
 }
 
 .menu-item
@@ -55,4 +64,39 @@ body
 {
     font-size: 24px;
     line-height: 29px;
+}
+
+.headline
+{
+    background-color: #d4d4d4;
+    text-align: center;
+    padding: 70px 0 40px;
+}
+
+.title
+{
+    text-transform: uppercase;
+    margin-bottom: 0 0 40px;
+    color: #ccad73;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.headline-img
+{
+    margin-bottom: 25px;
+}
+
+.headline-btn
+{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ccad73 ;
+    border-radius: 30px;
+    padding: 22px 117px 19px;
 }
